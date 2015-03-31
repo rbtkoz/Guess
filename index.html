@@ -1,0 +1,47 @@
+<!--
+Copyright (c) 2015 by Alexander Kozovski. All Rights Reserved.
+ -->
+
+<!DOCTYPE html>
+
+  <html lang="en">
+    <head>
+      <meta charset='utf-8'/>
+<!--       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
+ -->      <title>Guess</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link href="css/main.css" rel="stylesheet" />
+      <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <body>
+      <div class ="outer-container"
+        <div class="container-fluid">
+          <div class="row">
+            <header>
+              <div class="col-md-6 col-md-offset-1" id="desc">
+                <h1>Guess my number</h1>
+                <p>Type a number between 1 and 100, you have 5 tries :)</p>
+              </div>
+              <div class="col-md-3 col-md-offset-2" id="score">
+                Turns remain:<div class ="number">5</div>
+              </div>
+            </header>
+              <div class="col-md-3 col-md-offset-5" class ="box">
+                <form class="player">
+                  <input class="player_input" type="number" autofocus>
+                </form>
+                <div class="status"></div>
+                <div class="warning"></div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </body>
+<!--     <script src="scripts/jquery.min.js"></script>
+ -->  <script src="dist/app.js"></script>
+<!--     <script src="scripts/app.js"></script>
+ --><!--     <script src="scripts/bootstrap.min.js"></script>
+ -->
+
+
+   </html>

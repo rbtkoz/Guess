@@ -1,0 +1,60 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.player{
+  margin-top:30px;
+}
+
+#desc p{
+  font-size:14px;
+  margin-top:-10px;
+
+}
+
+#desc h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
+
+.player_input{
+  font-weight: 100;
+}
+header{
+  background-color: yellow;
+  height:100px;
+}
+.box{
+}
+
+.status{
+  font-size:2em;
+  font-weight:400;
+
+}
+#score{
+  margin-top:30px;
+}
+
+.playagain{
+  width:200%;
+}
+
+input[type="number"] {
+    font-size:25em;
+}
+
+input[type="number"], input:focus{
+    outline: 0;
+    border:none;
+
+}
+
+.number{
+  font-size:2em;
+  display:inline;
+  position: relative;
+  top: 4px;
+  left:5px;
+}
